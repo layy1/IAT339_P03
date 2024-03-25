@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P03: Lauryn Yau's Styleguide</title>
+
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation, menu header -->
+      <section class= "header-texts">
+      <h1 class= "header-name"> Lauryn Yau.</h1>
+      <nav class= "nav-menu">
+        <a href="./homepage.html" class= "nav-button">HOME</a>
+        <a href="./about.html" class= "nav-button">ABOUT</a>
+        <a href="./project-listings.html" class= "nav-button">WORKS</a>
+        <a href="./index.html" class= "nav-button">STYLEGUIDE</a>
+      </nav>
+      </section>
+
+    </header>
+
+    <div id= "title">
+      <h1>P03: Lauryn Yau's Portfolio</h1>
+      <h2>Style Guide</h2>
+    </div>
+
+
+
+<!-- About section (content starts) -->
+<section id="about">
+<h2>Meet the <mark><i>Designer</i></mark></h2>
+  <p>
+    I am a designer currently studying Interactive Arts and Technology at Simon Fraser University to achieve my Bachelor of Arts. I have an interest in user
+    interface and experience design, and making unique and intuitive experiences. I believe that collaboration, creativity and
+    adequate research are the key ingredients needed to create successful, user-friendly applications. Through my schooling and
+    other opportunities I have exercised my visual design, user-research, user-testing and programming skills.
+    </p>
+    <p>
+    Being a student I am constantly learning and seeking new opportunities to grow my experiences and skillset. In my
+    future career I want to work in a company that allows me to develop and grow my skills and seize new opportunities.
+  </p>
+
+</section>
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+<!-- in-text link -->
+      <section id= "line-section" class= "element">
+        <h3>In-text link/Button</h3>
+        <h4>CSS selector:</h4>
+        <p>.button</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" &lt;button class="button"&gt;Button&lt;/button&gt;&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#"> <button class="button">Button</button></a>
+
+      </section>
+
+
+<!-- navigation link -->
+      <section id= "line-section" class= "element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.nav-button</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="nav-button"&gt;NAVIGATION LINK&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class= "nav-button">NAVIGATION LINK</a>
+
+      </section>
+
+<!-- submit/reset buttons -->
+      <!-- <section id= "line-section" class= "element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button</p>
+        <p>.button</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Submit&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class= "button">Submit</a>
+        <a href="#" class= "button">Reset</a>
+
+      </section> -->
+
+<!-- text input with submit button and label -->
+      <section id= "line-section" class= "element">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-input-with-label</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;form class= "text-input-with-label" method="post" action="#"&gt;
+            <br>
+            &nbsp;&lt;label for="form-comment""&gt;Label::&lt;/label&gt;
+            <br>
+            &nbsp;&lt;input type="text" id="form-comment" class= "input" placeholder="Text Input"&gt;
+            <br>
+            &nbsp;&lt;input type="submit" value="Send""&gt;
+            <br>
+          &lt;/form&gt;
+      </code>
+
+
+        <h4>Rendered element:</h4>
+        <!-- <label for="form-comment">Leave Us a Comment:</label> -->
+        <form class= "text-input" method="post" action="#">
+          <input type="text" name="form-comment" class= "input" placeholder="Text Input">
+          <input type="submit" class= "button" id="comment-button" value="Send">
+        </form>
+      </section>
+
+<!-- radio button with label -->
+      <section id= "line-section" class= "element">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.radio-button</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;input type="radio" class= "radio-button" name="" value=""&gt;<br>
+          &nbsp;&lt;label for=""&gt;Button&lt;/label&gt;
+      </code>
+        </code>
+
+        <h4>Rendered element:</h4>
+        <input type="radio" class= "radio" name="" value="">
+        <label for="">Radio</label>
+        <input type="radio" class= "radio" name="" value="">
+        <label for="">Button</label>
+
+      </section>
+
+<!-- image as a link -->
+      <section id= "line-section" class= "element">
+        <h3>Image as a Link</h3>
+
+          <h4>CSS selector:</h4>
+          <p>.image-link</p>
+
+          <h4>Sample code:</h4>
+          <code>
+            &lt;a href="https://pin.it/5NlNQ35cs" class= "image-link"&gt;
+            <br>
+            &nbsp;&lt;img src="img/plushies.jpg"&gt;
+            <br>
+            &lt;/a&gt;
+          </code>
+
+          <h4>Rendered element:</h4>
+          <a href="https://pin.it/5NlNQ35cs" class= "image-link">
+            <img src="img/plushies.jpg">
+          </a>
+
+      </section>
+
+
+    </section>
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section id= "line-section" class="element">
+        <h3>Heading 1</h3>
+        <h4>CSS selector:</h4>
+        <p>.h1</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1>Heading 1</h1>
+
+      </section>
+
+      <section id= "line-section" class="element">
+        <h3>Heading 2</h3>
+        <h4>CSS selector:</h4>
+        <p>.h2</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h2>Heading 2</h2>
+
+      </section>
+
+
+      <section id= "line-section" class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.p</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Paragraphs&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p>Paragraphs</p>
+      </section>
+
+    <section id= "line-section" class="element">
+      <h3>Numbered List</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.numbered-list</p>
+
+      <h4>Sample code:</h4>
+      <code>
+        &lt;ol type = "1" class = "numbered-list"&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 1&lt;/li&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 2&lt;/li&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 3&lt;/li&gt;
+        <br>
+        &lt;/ol&gt;
+      </code>
+
+      <h4>Rendered element:</h4>
+      <ol type = "1" class = "numbered-list">
+        <li>Number 1</li>
+        <li>Number 2</li>
+        <li>Number 3</li>
+      </ol>
+
+    </section>
+
+  </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+    <!-- Your main navigation (i.e. a collection of the 'navigation link' items) -->
+      <section id= "line-section" class="element">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.nav-menu</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;nav id= "main-nav" class= "nav-menu"&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;HOME&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;ABOUT&lt;/a&gt;
+          <br>
+          &nbsp;&lt; href="#" class= "nav-button"&gt;WORKS&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;STYLEGUIDE&lt;/a&gt;
+          <br>
+          &lt;/nav&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <nav id= "main-nav" class= "nav-menu">
+          <a href="#" class= "nav-button">HOME</a>
+          <a href="#" class= "nav-button">ABOUT</a>
+          <a href="#" class= "nav-button">WORKS</a>
+          <a href="#" class= "nav-button">STYLEGUIDE</a>
+        </nav>
+
+      </section>
+
+      <!-- A product/service listing (i.e. a product name, image, cost, link to detailed description, etc) -->
+      <section id= "line-section" class="element">
+        <h3>Individual Projects</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.project-description</p>
+
+        <h4>Sample code:</h4>
+        <code>
+
+          &lt;div class= "project-description"&gt;
+          <br>
+              &nbsp;&lt;h2&gt;LA RÉB DESIGN STUDIO Store Website&lt;/h2&gt;
+            <br>
+            &nbsp;&lt;img src="img/project1_img.png" class= "project-image" alt= "Image of laptop mockups displaying final website with light blue background"&gt;
+            <br>
+            &nbsp;&lt;div class = "project-description-text"&gt;
+              <br>
+              &nbsp;&lt;p&gt; The goal of this project was to create a fully responsive website for a hypothetical store in collaboration with a
+                partner coding on GitHub. Myself and my partner created the company “LA REB DESIGN STUDIOS” that sold design prints. We
+                created a moodboard of inpiration for our brand’s colour palette and typefaces  and inspirations for the final website.
+                To ensure consistency with our website’s elements we created a styleguide that held example HTML code for elements such
+                as buttons, form comments and product listings. We implemented the styleguide’s elements with HTML and CSS code to create
+                templates  for product listings, checkout pages, an about/contact page, and  a homepage.  To create the completed pages
+                we implemented real content, such as product pictures and product/company descriptions.&nbsp;&lt;/p&gt;
+              <br>
+              &nbsp;&lt;p&gt; My partner and I struggled to create a web experience that was easy for the user to navigate. We were unsure how
+                to utilize a responsive interface to allow the user to know what was clickable and understand the purpose behind the
+                site’s elements. To solve this issue we asked others to test run our website given a specific task (for example, open
+                the site and navigate adding a product to the cart and checking out) and narrate their thought process outloud.
+                This way we were able to see where buttons or more interaction feedback needed to be added for users to understand
+                the site, and make navigating the site easier, and requiring less moving back and forth between pages. As a result
+                our UI became more user-friendly and created a more pleasant experience.&nbsp;&lt;/p&gt;
+                <br>
+                &nbsp;&lt;/div&gt;
+                <br>
+              &lt;/div&gt;
+
+          </div>
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        <div class= "project-description">
+          <h2>LA RÉB DESIGN STUDIO Store Website</h2>
+          <img src="img/project1_img.png" class= "project-image" alt= "Image of laptop mockups displaying final website with light blue background">
+        <div class= "project-description-text">
+            <p > The goal of this project was to create a fully responsive website for a hypothetical store in collaboration with a
+              partner coding on GitHub. Myself and my partner created the company “LA REB DESIGN STUDIOS” that sold design prints. We
+              created a moodboard of inpiration for our brand’s colour palette and typefaces  and inspirations for the final website.
+              To ensure consistency with our website’s elements we created a styleguide that held example HTML code for elements such
+              as buttons, form comments and product listings. We implemented the styleguide’s elements with HTML and CSS code to create
+              templates  for product listings, checkout pages, an about/contact page, and  a homepage.  To create the completed pages
+              we implemented real content, such as product pictures and product/company descriptions.
+            </p>
+            <p > My partner and I struggled to create a web experience that was easy for the user to navigate. We were unsure how
+              to utilize a responsive interface to allow the user to know what was clickable and understand the purpose behind the
+              site’s elements. To solve this issue we asked others to test run our website given a specific task (for example, open
+              the site and navigate adding a product to the cart and checking out) and narrate their thought process outloud.
+              This way we were able to see where buttons or more interaction feedback needed to be added for users to understand
+              the site, and make navigating the site easier, and requiring less moving back and forth between pages. As a result
+              our UI became more user-friendly and created a more pleasant experience.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <section id= "line-section" class="element">
+        <h3>Project Listing</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.project-listing</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;section id= "line-section">&gt;
+          <br>
+          &lt;div class= "project-listing"&gt;
+          <br>
+          &lt;div class= "project-listing-item"&gt;
+          <br>
+              &nbsp;&lt;h2&gt;LA RÉB DESIGN STUDIO Store Website&lt;/h2&gt;
+            <br>
+            &nbsp;&lt;/div&gt;
+            <br>
+            &lt;div class= "project-listing-item"&gt;
+            <br>
+              &nbsp;&lt;a href="./project1.html" class= "image-link"&gt;
+            <br>
+            &nbsp;&lt;img src="img/project1_img.png" class= "project-list-image" alt= "Image of laptop mockups displaying final website with light blue background"&gt;
+            <br>
+            &nbsp;&lt;/a&gt;
+            <br>
+            &nbsp;&lt;/div&gt;
+            <br>
+            &nbsp;&lt;div class = "project-listing-item"&gt;
+              <br>
+              &lt;a href="./project1.html"&gt; &lt;button class="button" id= "view-project-button"&gt;View Project&lt;/button&gt;&lt;/a&gt;
+                <br>
+                &nbsp;&lt;/div&gt;
+                <br>
+              &lt;/div&gt;
+              <br>
+              &lt;/section&gt;
+
+          </div>
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        <section id= "line-section">
+          <div class= "project-listing">
+            <div class= "project-listing-item">
+            <h2 id= "project-title">LA RÉB DESIGN STUDIO Store Website</h2>
+          </div>
+          <div class= "project-listing-item">
+            <a href="./project1.html" class= "image-link">
+              <img src="img/project1_img.png" class= "project-list-image" alt= "Image of laptop mockups displaying final website with light blue background">
+            </a>
+          </div>
+          <div class = "project-listing-item">
+            <a href="./project1.html"> <button class="button" id= "view-project-button">View Project</button></a>
+          </div>
+          </div>
+        </section>
+
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="brand-elements">
+      <h2>Brand Elements</h2>
+      <section class="element">
+
+        <h3>Inspiration Images Moodboard</h3>
+          <img src="img/inspo-moodboard.png" alt= "Moodboard of inspiration images, colour palettes and texts" class= "moodboard">
+
+      </section>
+
+      <section id= "line-section" class="element">
+
+        <h3>Colour Palette</h3>
+          <img src="img/colour-palette.png" alt= "Colour palette and HEX codes (cream, pastel pink, green and blue)" class= "colour-palette">
+
+      </section>
+
+      <section id= "line-section" class="element">
+
+        <h3>Fonts</h3>
+          <h1> Lora Bold - Heading 1/Title </h1>
+          <h2> Lora Medium - Heading 2 </h2>
+          <p> Open Sans Regular - Paragraphs </p>
+
+      </section>
+
+    </section>
+
+  </body>
+  <!-- <footer>
+        <div class="footer-container">
+          <div class= "footer-element">
+            <h1 id="footer-title">P03: Portfolio</h1>
+          </div>
+      <div class="footer-element" id="nav-footer">
+        <h3 id="nav-title-footer">NAVIGATION</h3>
+        <nav id= "main-nav" class= "nav-menu">
+          <a href="#" class= "nav-button">HOME</a>
+          <a href="#" class= "nav-button">ABOUT</a>
+          <a href="#" class= "nav-button">PROJECTS</a>
+        </nav>
+      <! </div> -->
+        <!-- <div class= "footer-element" id="comment-footer">
+        <form class= "text-input-with-label" method="post" action="#">
+          <label for="form-comment" id="footer-comment-label">Tell Us How We're Doing:</label> <br>
+          <input type="text" id="form-comment" class= "input" placeholder="Type your message here...">
+          <input type="submit" class= "input-button" value="Send">
+        </form>
+      </div>
+    </div>
+  </div>
+      </footer> -->
+
+      </html>

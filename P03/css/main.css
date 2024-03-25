@@ -1,0 +1,289 @@
+body {
+  padding: 2rem;
+  background-color: #ECE9E2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: inline-block;
+}
+
+section {
+  /* margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333; */
+}
+
+#line-section {
+  padding-bottom: 2rem;;
+  border-bottom: 1px solid #333;
+}
+
+#title {
+  margin: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  background-color: #A4B1BA;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Lora-Bold";
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Lora-Medium";
+}
+
+h3 {
+  font-family: "Lora-Medium";
+}
+
+h4 {
+  font-family: "Lora-Medium";
+}
+
+ p {
+  margin-top: 0;
+  font-family: "OpenSans";
+}
+
+mark {
+  background: #A4B1BA;
+  padding-right: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+ code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+.button {
+    font-family: "OpenSans";
+    display: inline-block;
+    background-color: #B0B39B;
+    color: #ECE9E2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border: 0;
+    font-size: 1rem;
+    border: 0.15rem solid #B0B39B
+}
+
+.button:hover {
+  background-color: #ECE9E2;
+  color: #B0B39B;
+  border: 0.15rem solid #B0B39B
+}
+
+.button:focus {
+  background-color: #5A5C46;
+}
+
+/* Form/Comment Elements */
+
+.input {
+  max-width: 60rem;
+  min-width: 20rem;
+  font-family: "OpenSans";
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: 0.15rem solid #B0B39B;
+  flex:1;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  display: block;
+}
+
+/* .input:hover {
+  background-color: #B0B39B;
+} */
+
+/* .input:focus{
+  outline: 0.rem solid #B0B39B;
+} */
+
+#comment-button {
+  margin: 0rem;;
+}
+
+label {
+  font-family: "OpenSans";
+}
+
+.text-input{
+  display: flex;
+  align-items: center;
+  max-width: 20rem;
+}
+
+/* Styling for the navigation buttons */
+
+.header-name {
+  margin-left: 2rem;
+  display: flex;
+  font-size: 1.25rem;
+  min-width: 9rem;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: black;
+  font-family: "OpenSans-Semibold";
+  /* background-color: #333; */
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.nav-button:hover, .nav-button:focus {
+  color: #999;
+}
+
+.nav-menu {
+  margin-left: 65%;
+  margin-top: 0.5rem;
+}
+
+.header-texts {
+  display: flex;
+}
+
+/* Image Links */
+
+.image-link {
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+/* Referenced from https://www.30secondsofcode.org/css/s/image-overlay-hover/ */
+.image-link * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.image-link img {
+  vertical-align: top;
+  backface-visibility: hidden;
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+.image-link:hover > img {
+  opacity: 0.5;
+}
+
+.image-link:focus {
+  /* Referenced from https://www.tutorialspoint.com/how-to-darken-an-image-using-css */
+  filter: brightness(70%);
+}
+
+ /* Images */
+
+ .colour-palette {
+   max-width: 50%;
+ }
+
+ .moodboard {
+   max-width: 70%;
+ }
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+.radio-button {
+  font-family: "OpenSans";
+}
+
+li {
+  font-family: "OpenSans";
+}
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+.project-description {
+  text-align: center;
+}
+
+.project-description-text {
+  max-width: 60rem;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.project-image {
+  margin-bottom: 4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 60rem;
+  height: 40rem;
+}
+
+.project-listing {
+  margin-right: 2rem;
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.project-listing-item {
+  align-items: center;
+  margin: 3rem;
+  display: flex;
+  width: 30rem;
+}
+
+.project-list-image {
+  width: 30rem;
+  height: 20rem;
+}
+
+/*
+  SECTION ID'S -------------------
+*/
+
+#about {
+  max-width: 70rem;
+  margin-bottom: 4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#project-title {
+  margin-bottom: 20rem;
+  max-width: 10rem;
+}
+
+#view-project-button {
+  margin-top: 18rem;
+  margin-left: 2rem;
+}
