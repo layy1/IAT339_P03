@@ -7,7 +7,7 @@
   animation: about-text-move  3s;
 }
 
-#about-img {
+.about-img {
   animation: image-float-down 3s;
 }
 
