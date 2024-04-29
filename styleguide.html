@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P03: Lauryn Yau's Styleguide</title>
+
+
+    <link href="css/main-dist.css" rel="stylesheet">
+    <link href="css/fonts-dist.css" rel="stylesheet">
+    <link href="css/animate-dist.css" rel="stylesheet">
+
+
+
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation, menu header -->
+    <div >
+      <h1 class= "header-name"> Lauryn Yau.</h1>
+    </div>
+      <nav class= "nav-menu">
+        <a href="./index.html" class= "nav-button">HOME</a>
+        <a href="./about.html" class= "nav-button">ABOUT</a>
+        <a href="./project-listings.html" class= "nav-button">WORKS</a>
+        <a href="./styleguide.html" class= "nav-button">STYLEGUIDE</a>
+      </nav>
+
+    </header>
+
+<div id= "title-div">
+    <div id= "title">
+      <h1>P03: Lauryn Yau's Portfolio</h1>
+      <h2>Style Guide</h2>
+    </div>
+  </div>
+
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+<!-- in-text link -->
+      <section class= "line-section">
+        <h3>In-text link/Button</h3>
+        <h4>CSS selector:</h4>
+        <p>.button</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" &lt;button class="button"&gt;Button&lt;/button&gt;&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#"> <button class="button">Button</button></a>
+
+      </section>
+
+
+<!-- navigation link -->
+
+      <section class= "line-section">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.nav-button</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="nav-button"&gt;NAVIGATION LINK&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class= "nav-button">NAVIGATION LINK</a>
+
+      </section>
+
+<!-- text input with submit button and label -->
+
+      <section class= "line-section">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-input-with-label</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;form class= "text-input-with-label" method="post" action="#"&gt;
+            <br>
+            &nbsp;&lt;label for="form-comment""&gt;Label::&lt;/label&gt;
+            <br>
+            &nbsp;&lt;input type="text" id="form-comment" class= "input" placeholder="Text Input"&gt;
+            <br>
+            &nbsp;&lt;input type="submit" value="Send""&gt;
+            <br>
+          &lt;/form&gt;
+      </code>
+
+
+        <h4>Rendered element:</h4>
+        <!-- <label for="form-comment">Leave Us a Comment:</label> -->
+        <form class= "text-input" method="post" action="#">
+          <input type="text" name="form-comment" class= "input" placeholder="Text Input">
+          <input type="submit" class= "button" id="comment-button" value="Send">
+        </form>
+      </section>
+
+<!-- radio button with label -->
+      <section class= "line-section">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.radio-button</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;input type="radio" class= "radio-button" name="" value=""&gt;<br>
+          &nbsp;&lt;label for=""&gt;Button&lt;/label&gt;
+      </code>
+
+        <h4>Rendered element:</h4>
+        <input type="radio" class= "radio" name="" value="">
+        <label for="">Radio</label>
+        <input type="radio" class= "radio" name="" value="">
+        <label for="">Button</label>
+
+      </section>
+
+<!-- image as a link -->
+      <section class= "line-section">
+        <h3>Image as a Link</h3>
+
+          <h4>CSS selector:</h4>
+          <p>.image-link</p>
+
+          <h4>Sample code:</h4>
+          <code>
+            &lt;a href="https://pin.it/5NlNQ35cs" class= "image-link" alt= "Image of multicoloured plushies in a washing machine"&gt;
+            <br>
+            &nbsp;&lt;img src="img/plushies.jpg"&gt;
+            <br>
+            &lt;/a&gt;
+          </code>
+
+          <h4>Rendered element:</h4>
+          <a href="https://pin.it/5NlNQ35cs" class= "image-link">
+            <img src="img/plushies.jpg" alt= "Image of multicoloured plushies in a washing machine">
+          </a>
+
+      </section>
+
+
+    </section>
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class= "line-section" >
+        <h3>Heading 1</h3>
+        <h4>CSS selector:</h4>
+        <p>.h1</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1>Heading 1</h1>
+
+      </section>
+
+      <section class= "line-section">
+        <h3>Heading 2</h3>
+        <h4>CSS selector:</h4>
+        <p>.h2</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h2>Heading 2</h2>
+
+      </section>
+
+      <section class= "line-section">
+        <h3>Heading 3</h3>
+        <h4>CSS selector:</h4>
+        <p>.h3</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h3>Heading 3</h3>
+
+      </section>
+
+
+      <section class= "line-section" >
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.p</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Paragraphs&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p>Paragraphs</p>
+      </section>
+
+    <section class= "line-section">
+      <h3>Numbered List</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.numbered-list</p>
+
+      <h4>Sample code:</h4>
+      <code>
+        &lt;ol type = "1" class = "numbered-list"&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 1&lt;/li&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 2&lt;/li&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 3&lt;/li&gt;
+        <br>
+        &lt;/ol&gt;
+      </code>
+
+      <h4>Rendered element:</h4>
+      <ol type = "1" class = "numbered-list">
+        <li>Number 1</li>
+        <li>Number 2</li>
+        <li>Number 3</li>
+      </ol>
+
+    </section>
+
+  </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+    <!-- Your main navigation (i.e. a collection of the 'navigation link' items) -->
+      <section class= "line-section">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.nav-menu</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;nav class= "nav-menu"&gt;
+          <br>
+          &nbsp;&lt;a href="./index.html" class= "nav-button"&gt;HOME&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="./about.html" class= "nav-button"&gt;ABOUT&lt;/a&gt;
+          <br>
+          &nbsp;&lt; href="./project-listings.html" class= "nav-button"&gt;WORKS&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="styleguide.html" class= "nav-button"&gt;STYLEGUIDE&lt;/a&gt;
+          <br>
+          &lt;/nav&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+          <nav class= "nav-menu">
+            <a href="./index.html" class= "nav-button">HOME</a>
+            <a href="./about.html" class= "nav-button">ABOUT</a>
+            <a href="./project-listings.html" class= "nav-button">WORKS</a>
+            <a href="./styleguide.html" class= "nav-button">STYLEGUIDE</a>
+          </nav>
+
+      </section>
+
+      <!-- A product/service listing (i.e. a product name, image, cost, link to detailed description, etc) -->
+      <section class= "line-section">
+        <h3>Individual Projects</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.project-description</p>
+
+        <h4>Sample code:</h4>
+        <code>
+
+          &lt;div class= "project-description"&gt;
+          <br>
+              &nbsp;&lt;h2&gt;LA RÉB DESIGN STUDIO Store Website&lt;/h2&gt;
+            <br>
+            &nbsp;&lt;img src="img/project1_img.png" class= "project-image" alt= "Image of laptop mockups displaying final website with light blue background"&gt;
+            <br>
+            &nbsp;&lt;div class = "project-description-text"&gt;
+              <br>
+              &nbsp;&lt;h3&gt;Project Overview&lt;/h3&gt;
+              <br>
+              &nbsp;&lt;p&gt; The goal of this project was to create a fully responsive website for a hypothetical store in collaboration with a partner coding in
+               GitHub. My partner and I created the company “LA REB DESIGN STUDIOS” that sold design prints and created an online storefront.&nbsp;&lt;/p&gt;
+              <br>
+              &nbsp;&lt;h3&gt;Process Analysis&lt;/h3&gt;
+              <br>
+              &nbsp;&lt;p&gt; We created a moodboard of inspiration for our brand’s colour palette and typefaces and inspirations for the final website. I researched other
+              websites and photos of other web layouts for inspiration and created our potential colour palettes. To ensure consistency with our website’s
+              elements we created a styleguide that held example HTML code for elements such as buttons, form comments and product listings. We implemented
+              the styleguide’s elements with HTML and CSS code to create templates for product listings, checkout pages, an about/contact page, and a
+              homepage. I coded a majority of the HTML code of the project , as our base code was code I had created for a previous project, and implemented
+              the new styling with my partner through GitHub. To create the completed pages we implemented real content, such as product pictures and
+              product/company descriptions, I found the images of example products (making sure our images were consistent and matched our chosen colour
+              palette)
+              and wrote the product descriptions and company bio.&nbsp;&lt;/p&gt;
+              <br>
+              &nbsp;&lt;h3&gt;Project Conflicts and Solutions&lt;/h3&gt;
+              <br>
+              &nbsp;&lt;p&gt;   My partner and I struggled to create a web experience that was easy for the user to navigate. I was unsure how to utilize a responsive
+                interface to allow the user to know what was clickable and understand the purpose behind the site’s elements. To solve this issue we asked
+                others to test run our website given a specific task (for example, I asked the participants I gathered to open the site and navigate adding
+                a product to the cart and checking out) and narrate their thought process aloud. This way I could see where buttons or more interaction
+                feedback needed to be added for users to understand the site, and make navigating the site easier, and requiring less moving back and forth
+                between pages. As a result our UI became more user-friendly and created a more pleasant experience that was enjoyed by users.&nbsp;&lt;/p&gt;
+                <br>
+                &nbsp;&lt;/div&gt;
+                <br>
+              &lt;/div&gt;
+
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        <div class= "project-description">
+          <h2>LA RÉB DESIGN STUDIO Store Website</h2>
+          <img src="img/project1_img.png" class= "project-image" alt= "Image of laptop mockups displaying final website with light blue background">
+          <div class= "project-description-text">
+            <h3>Project Overview</h3>
+              <p >
+                The goal of this project was to create a fully responsive website for a hypothetical store in collaboration with a partner coding in
+                 GitHub. My partner and I created the company “LA REB DESIGN STUDIOS” that sold design prints and created an online storefront.
+              </p>
+              <h3>Process Analysis</h3>
+              <p>
+                We created a moodboard of inspiration for our brand’s colour palette and typefaces and inspirations for the final website. I researched other
+                websites and photos of other web layouts for inspiration and created our potential colour palettes. To ensure consistency with our website’s
+                elements we created a styleguide that held example HTML code for elements such as buttons, form comments and product listings. We implemented
+                the styleguide’s elements with HTML and CSS code to create templates for product listings, checkout pages, an about/contact page, and a
+                homepage. I coded a majority of the HTML code of the project , as our base code was code I had created for a previous project, and implemented
+                the new styling with my partner through GitHub. To create the completed pages we implemented real content, such as product pictures and
+                product/company descriptions, I found the images of example products (making sure our images were consistent and matched our chosen colour
+                palette)
+                and wrote the product descriptions and company bio.
+              </p>
+              <h3>Project Conflicts and Solutions</h3>
+              <p>
+                My partner and I struggled to create a web experience that was easy for the user to navigate. I was unsure how to utilize a responsive
+                interface to allow the user to know what was clickable and understand the purpose behind the site’s elements. To solve this issue we asked
+                others to test run our website given a specific task (for example, I asked the participants I gathered to open the site and navigate adding
+                a product to the cart and checking out) and narrate their thought process aloud. This way I could see where buttons or more interaction
+                feedback needed to be added for users to understand the site, and make navigating the site easier, and requiring less moving back and forth
+                between pages. As a result our UI became more user-friendly and created a more pleasant experience that was enjoyed by users.
+              </p>
+            </div>
+            <div class= "project-description-text">
+            <h3>Project Roles</h3>
+            <p> Visual Design, HTML Coding, Styleguide Creation </p>
+            <h3>Project Members</h3>
+            <ul type = "-" class = "numbered-list">
+              <li>Areeba Ali</li>
+              <li>Lauryn Yau</li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+      <section class= "line-section" >
+        <h3>Project Listing</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.project-listing</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;section class= "line-section">&gt;
+          <br>
+          &lt;div class= "project-listing"&gt;
+          <br>
+          &lt;div class= "project-listing-item"&gt;
+          <br>
+            &nbsp;&lt;a href="./project1.html" class= "image-link"&gt;
+          <br>
+          &nbsp;&lt;img src="img/project1_img.png" class= "project-list-image" alt= "Image of laptop mockups displaying final website with light blue background"&gt;
+          <br>
+          &nbsp;&lt;/a&gt;
+          <br>
+            &nbsp;&lt;div class = "project-listing-item"&gt;
+              <br>
+              &nbsp;&lt;h2 id="project-title"&gt;LA RÉB DESIGN STUDIO Store Website&lt;/h2&gt;
+            <br>
+              &nbsp;&lt;p id="project-date"&gt;&lt;i&gt;Feb. - Mar. 2024&lt;/i&gt;&lt;/p&gt;
+              <br>
+            &nbsp;&lt;/div&gt;
+            <br>
+            &lt;div class= "project-list-bottom-row"&gt;
+            <br>
+            &nbsp;&lt;h2 id="project-tag"&gt;User Interface HTML/CSS&lt;/h2&gt;
+            <br>
+              &lt;a href="./project1.html"&gt; &lt;button class="button" id= "view-project-button"&gt;View Project&lt;/button&gt;&lt;/a&gt;
+            <br>
+            &nbsp;&lt;/div&gt;
+                <br>
+                &nbsp;&lt;/div&gt;
+                <br>
+              &lt;/div&gt;
+              <br>
+              &lt;/section&gt;
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        <section class= "line-section">
+          <div class= "project-listing">
+            <div class= "project-listing-item">
+              <a href="./project1.html" class= "image-link">
+                <img src="img/project1_img.png" class= "project-list-image" alt= "Image of laptop mockups displaying final website with light blue background">
+              </a>
+            </div>
+            <div class= "project-listing-item">
+            <h2 id= "project-title">LA RÉB DESIGN STUDIO Website</h2>
+            <p id= "project-date"><i>Feb. - Mar. 2024</i></p>
+            <div id= "project-list-bottom-row">
+            <p id= "project-tag">User Interface HTML/CSS</p>
+              <a href="./project1.html"> <button class="button" id= "view-project-button">View Project</button></a>
+            </div>
+          </div>
+          </div>
+        </section>
+
+      </section>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="brand-elements">
+      <h2>Brand Elements</h2>
+      <section class="element">
+
+        <h3>Inspiration Images Moodboard</h3>
+          <img src="img/inspo-moodboard.png" alt= "Moodboard of inspiration images, colour palettes and texts" class= "moodboard">
+
+      </section>
+
+      <section class= "line-section">
+
+        <h3>Colour Palette</h3>
+          <img src="img/colour-palette.png" alt= "Colour palette and HEX codes (cream, pastel pink, green and blue)" class= "colour-palette">
+
+      </section>
+
+      <section class= "line-section">
+
+        <h3>Fonts</h3>
+          <h1> Lora Bold - Heading 1/Title </h1>
+          <h2> Lora Medium - Heading 2 </h2>
+          <h3> Lora Medium - Heading 3 </h3>
+          <p> Open Sans Regular - Paragraphs </p>
+
+      </section>
+
+    </section>
+        <section id="citations">
+      <h2>Citations</h2>
+      <p>
+        Image Hover: https://www.30secondsofcode.org/css/s/image-overlay-hover/
+      </p>
+          <p>
+        Image Focus: https://www.tutorialspoint.com/how-to-darken-an-image-using-css
+          </p>
+          <p>
+        Styleguide Example Image: https://pin.it/5NlNQ35cs
+      </p>
+    </section>
+
+  </body>
+
+      </html>
